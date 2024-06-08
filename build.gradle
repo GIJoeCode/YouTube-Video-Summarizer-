@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.5'
+    id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'org.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '17'
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation 'software.amazon.awssdk:polly:2.20.46'
+    implementation 'software.amazon.awssdk:auth:2.20.46'
+    implementation 'software.amazon.awssdk:core:2.20.46'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    // Selenium
+    implementation 'org.seleniumhq.selenium:selenium-java:4.14.1'
+    // WebDriverManager
+    implementation 'io.github.bonigarcia:webdrivermanager:5.8.0'
+    // Jsoup
+    implementation 'org.jsoup:jsoup:1.15.3'
+    // OkHttp
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+    // Jackson
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.5'
+    compileOnly 'org.projectlombok:lombok'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    runtimeOnly 'com.mysql:mysql-connector-j'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

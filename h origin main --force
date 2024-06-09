@@ -1,0 +1,24 @@
+[33mcommit 93688195e8f03e0b569702d106cd94f9533bc9ed[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: e708e36 1d6d3b7
+Author: WaxOnWaxOff221 <josephwquinn@gmail.com>
+Date:   Sat Jun 8 18:36:29 2024 -0500
+
+    Merge branch 'main' of https://github.com/GIJoeCode/YouTube-Video-Summarizer-
+
+[33mcommit e708e365bd9c3e505e22e55f22e533c3da39d99a[m
+Author: WaxOnWaxOff221 <josephwquinn@gmail.com>
+Date:   Sat Jun 8 18:14:11 2024 -0500
+
+    Initial commit of YouTube Video Summarizer project
+
+[33mcommit 1d6d3b718dcbe11fef7d72b5c31da3ea878a9748[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: GIJoeCode <81126769+GIJoeCode@users.noreply.github.com>
+Date:   Sat Jun 8 17:55:48 2024 -0500
+
+    Update README.md
+
+[33mcommit 6c38e8f06ff5d94ab6b82fc74d6e0b71a0c337c2[m
+Author: GIJoeCode <81126769+GIJoeCode@users.noreply.github.com>
+Date:   Sat Jun 8 17:55:10 2024 -0500
+
+    Initial commit
